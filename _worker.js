@@ -16,7 +16,7 @@ let MainData = `
 `;
 
 let urls = [];
-let subConverter = "subconvert.bigrich.cc"; //在线订阅转换后端，目前使用CM的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
+let subConverter = "https://subapi.bigrich.cc"; //在线订阅转换后端，目前使用CM的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
 let subConfig = "https://raw.githubusercontent.com/mrc991/Custom_OpenClash_Rules/refs/heads/main/cfg/Custom_Clash.ini"; //订阅配置文件
 //let subConfig = "https://cdn.jsdelivr.net/gh/mrc991/Custom_OpenClash_Rules@main/cfg/Custom_Clash.ini"; //订阅配置文件
 //let subConfig = "https://testingcf.jsdelivr.net/gh/mrc991/Custom_OpenClash_Rules@main/cfg/Custom_Clash.ini"; //订阅配置文件
@@ -828,6 +828,7 @@ async function KV(request, env, txt = 'ADD.txt', guest) {
 	}
 
 }
+
 
 
 
